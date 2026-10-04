@@ -1,0 +1,38 @@
+[
+  {
+    "comment": "header part (\"sealed\")",
+    "owner_secret": "0000000000000000000000000000000000000000000000000000000000000001",
+    "owner_pubkey": "79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+    "ephemeral_secret": "0000000000000000000000000000000000000000000000000000000000000002",
+    "ephemeral_pubkey": "c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+    "shared_x": "c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+    "conversation_key": "c41c775356fd92eadc63ff5a0dc1da211b268cbea22316767095b2871ea1412d",
+    "nonce": "000102030405060708090a0b0c0d0e0f1011121314151617",
+    "plaintext": "{\"to\":\"hermes@npubmail.com\",\"mail_from\":\"bounce@example.com\",\"from\":\"Example \u003cnoreply@example.com\u003e\",\"subject\":\"Your code\",\"auth\":{\"spf\":\"pass\",\"dkim\":[\"example.com\"],\"aligned\":true},\"codes\":[\"482913\"],\"warnings\":[]}",
+    "sealed": "v1:c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5:AAECAwQFBgcICQoLDA0ODxAREhMUFRYXNGlGO2m+gw3jU7nlaWH4w1oCyyon25JF/O9gtL1uhE4rK8pEtMYB1qyNyYLRsSklv3dp+zFAjY9Z2tMu2Yr3DeB472hmX5bSjkzSQT3tSbcnEoAiteocrGuKvb3ERT97OjWVrbP/bc7fcBDZ4jHTkgSc9t5iyPKNnYBbuBpumkvKN6ws4Du4AGcUq86A2Y9FL8L/5gWFxkUK//cXKbPhQS8dJsXtD7lCOmolUlljD/11PVWR0k+RfNtcWDph7KPLOIjMQmSdcyjk6IctjXVGPCdg+cEdeuuF+ycG0Mx0XBW/ao/6HkK3"
+  },
+  {
+    "comment": "body part (\"sealed_body\"), non-ASCII text",
+    "owner_secret": "7f7ff03d123792d6ac594bfa67bf6d0c0ab55b6b1fdb6249303fe861f1ccba9a",
+    "owner_pubkey": "17162c921dc4d2518f9a101db33695df1afb56ab82f5ff3e5da6eec3ca5cd917",
+    "ephemeral_secret": "5c0c523f52a5a6ad7cf5e3eb9e2b8f1d6f3c5d2b6e8a4c0f1e2d3c4b5a697887",
+    "ephemeral_pubkey": "21664ca79f50a0ec7f34fddb8a112f80a4204b7c808c5dcd4b4f973c54642f2f",
+    "shared_x": "90e11178b1855e71b5fda2306934c2b28a55dea1e44d022a81d40af38df17f8b",
+    "conversation_key": "673e28402d2a9d5f6d2f53b4024a3b7f02771c2d714329a88423e658cc6800a4",
+    "nonce": "ffeeddccbbaa99887766554433221100ffeeddccbbaa9988",
+    "plaintext": "{\"text\":\"Grüße aus Frankfurt — code 123456\\n\",\"links\":[{\"url\":\"https://example.com/verify?t=abc\",\"action\":true}]}",
+    "sealed": "v1:21664ca79f50a0ec7f34fddb8a112f80a4204b7c808c5dcd4b4f973c54642f2f:/+7dzLuqmYh3ZlVEMyIRAP/u3cy7qpmIHuDRZd00WWLEy581ol/FC9YyQqsIR036QISd9tdqj5Xj42gwpPpNOWPCYm1QjoM1PmHwCNt7A7DHcsKRFFmgDr1mRNuScDpDF/0CdEiBiVwH+tN1aIs8C1zq7Ndz66maKM2dS5UCC1TPe9aZg1zNuiYEII4DYbN1RvN21unJwZTjUmeJEw=="
+  },
+  {
+    "comment": "empty plaintext",
+    "owner_secret": "fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140",
+    "owner_pubkey": "79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+    "ephemeral_secret": "0000000000000000000000000000000000000000000000000000000000000003",
+    "ephemeral_pubkey": "f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9",
+    "shared_x": "f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9",
+    "conversation_key": "68ace26dd21fd98a8781d65588d0a7bfb3746974cafdfbf8ea797fb42d251b9d",
+    "nonce": "000000000000000000000000000000000000000000000000",
+    "plaintext": "",
+    "sealed": "v1:f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAi0VcRF4hrcBbYO2X1GdPBA=="
+  }
+]

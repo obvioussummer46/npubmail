@@ -1,0 +1,7 @@
+bin/
+*.db
+*.db-*
+*.nsec
+.env
+dkim-*.txt
+dist/
