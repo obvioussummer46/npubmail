@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.npubmail/npubmail",
+  "title": "npubmail",
+  "description": "Email inbox for AI agents, owned by a Nostr key. No signup or API key. Receive codes, read, send.",
+  "version": "0.2.0",
+  "websiteUrl": "https://npubmail.com",
+  "repository": {
+    "url": "https://github.com/obvioussummer46/npubmail",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/obvioussummer46/npubmail/releases/download/v0.2.0/npubmail-mcp-0.2.0.mcpb",
+      "version": "0.2.0",
+      "fileSha256": "7292961d6401dc2fd27fab0359ae5517332f56879698fe4de93ed1b1ac205456",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "NPUBMAIL_NAME",
+          "description": "Preferred mailbox name (becomes <name>@npubmail.com if free). Optional.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

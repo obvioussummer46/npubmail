@@ -12,6 +12,11 @@ This repository holds the open clients for the hosted service at **[npubmail.com
 
 ## Install
 
+**One click (Claude Desktop and other MCPB clients):** download [`npubmail-mcp-0.2.0.mcpb`](https://github.com/obvioussummer46/npubmail/releases/latest) and open it.
+
+Listed in the official MCP Registry as `com.npubmail/npubmail`.
+<!-- mcp-name: com.npubmail/npubmail -->
+
 ```sh
 curl -fsSL https://npubmail.com/install | sh       # prebuilt, checksummed binaries
 # or from source:
