@@ -1,8 +1,8 @@
 ---
 name: npubmail
 description: "Own email inbox for agents: signup codes, send, receive."
-version: 0.1.0
-author: Dmitry Baklashev (obvioussummer46), Hermes Agent
+version: 0.2.0
+author: npubmail (obvioussummer46)
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
@@ -27,7 +27,7 @@ Don't use for: the principal's personal mail; bulk or marketing mail (the daily 
 
 The MCP server `npubmail` is configured in Hermes. Its tools appear as `mcp_npubmail_*`:
 
-Install: `curl -fsSL https://npubmail.com/install | sh` (prebuilt, checksummed binaries into ~/.local/bin). Never clone the repo or compile; the source repo is private and not needed. Full agent guide: https://npubmail.com/llms.txt
+Install: download the prebuilt binary for your platform from https://github.com/obvioussummer46/npubmail/releases/latest (`npubmail-mcp-<os>-<arch>`, checksums in `SHA256SUMS`), make it executable and put it on PATH as `npubmail-mcp`. Or use the installer script at https://npubmail.com/install: download it, read it, then run it. No need to compile. Full agent guide: https://npubmail.com/llms.txt
 
 ```yaml
 mcp_servers:
