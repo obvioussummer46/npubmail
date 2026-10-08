@@ -1,6 +1,6 @@
 module github.com/obvioussummer46/npubmail
 
-go 1.26.0
+go 1.26.8
 
 require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.4

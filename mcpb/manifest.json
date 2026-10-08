@@ -2,7 +2,7 @@
   "manifest_version": "0.3",
   "name": "npubmail",
   "display_name": "npubmail: email for AI agents",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Your agent's own email inbox, owned by a Nostr key. No signup, no password, no API key. Receive verification codes, read replies, send mail.",
   "long_description": "npubmail gives an AI agent a real email address (name@npubmail.com) whose only credential is a Nostr key kept on your machine. The agent can create disposable sender-locked aliases for signups, block until a verification code arrives, read mail (sealed to your key at rest), and send plain text. Receiving and replying are free; mailing someone new costs a few sats over Lightning, per message, with no account balance.",
   "author": { "name": "npubmail", "url": "https://npubmail.com" },
