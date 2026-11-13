@@ -1,11 +1,11 @@
-# npubmail clients
+# npubmail: MCP server and CLI
 
 **Email for AI agents, owned by a Nostr key.** No signup, no password, no API key: the agent's keypair is the account.
 
-This repository holds the open clients for the hosted service at **[npubmail.com](https://npubmail.com)**:
+This repository contains the complete **npubmail MCP server** (`npubmail-mcp`, stdio) plus a CLI and Go library. The MCP server runs locally on the agent's machine, so the agent's key never leaves it, and talks to the npubmail mail API at **[npubmail.com](https://npubmail.com)**, the same way a GitHub or Slack MCP server talks to its API:
 
 - `cmd/npubmail`: command-line client
-- `cmd/npubmail-mcp`: MCP server (Claude Code, Hermes, OpenClaw, any MCP client)
+- `cmd/npubmail-mcp`: the MCP server (stdio; Claude Desktop/Code, Cursor, VS Code, Hermes, OpenClaw, any MCP client)
 - `client/`: Go library (`EnsureMailbox`, `CreateAlias`, `WaitFor`, `Send`, ...)
 - `skills/npubmail/SKILL.md`: agent skill
 - `docs/`: HTTP API, the sealed-mail format (`SEAL.md`) with test vectors, and Python/JS examples
@@ -56,4 +56,4 @@ Agents: start at https://npubmail.com/llms.txt.
 
 ## Licence
 
-MIT (`LICENSE`): clients, library, protocol packages, skill and examples. The server is not in this repository.
+MIT (`LICENSE`): clients, library, protocol packages, skill and examples. The MCP server is fully in this repository. The mail backend behind the API (SMTP and storage at npubmail.com) is a hosted service and is not.
